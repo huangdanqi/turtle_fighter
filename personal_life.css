@@ -1,0 +1,167 @@
+body {
+    background-image: url('personal_life.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+/* unvisited link */
+a:link {
+    color: hotpink;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hotpink;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:coral;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color:  hotpink;
+    text-decoration: none;
+  }
+.info-1 {
+    position: absolute;
+    top: 85px;
+    right: 100PX;
+    width: 600px;
+    height: 380px;
+    word-spacing: 8px;
+    line-height: 1.4;
+    /* border: 3px solid #73AD21; */
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.hr{
+    height:3px;
+    border-width:1px;
+    background-color:black;
+}
+
+.grid-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .image_1{
+
+    position: absolute;
+    top: 250px;
+    right: 1200px;
+    
+}
+.text_1{
+    position: absolute;
+    top: 250px;
+
+    right: 940px;
+    height: 132px;
+    width: 250px;
+
+    border: 5px dashed rgb(251, 194, 9);
+    /* background-color: linen; */
+    background-color:lightgoldenrodyellow;
+
+
+  
+}
+
+.image_3{
+
+    position: absolute;
+    top: 250px;
+
+    right: 790px;
+}
+.text_3{
+    position: absolute;
+    top: 250px;
+
+    right: 530px;
+    height: 132px;
+    width: 250px;
+
+    border: 5px dashed rgb(251, 194, 9);
+    /* background-color: linen; */
+    background-color:lightgoldenrodyellow;
+}
+
+.image_2{
+
+    position: absolute;
+    top:420px;
+
+    right: 1200px;
+}
+.text_2{
+    position: absolute;
+    top:420px;
+
+    right: 940px;
+    height: 132px;
+    width: 250px;
+
+    border: 5px dashed rgb(251, 194, 9);
+    /* background-color: linen; */
+    background-color:lightgoldenrodyellow;
+}
+.image_4{
+    position: absolute;
+    top:420px;
+
+    right: 790px;
+}
+
+.text_4{
+    position: absolute;
+    top:420px;
+
+    right: 530px;
+    height: 132px;
+    width: 250px;
+
+    border: 5px dashed rgb(251, 194, 9);
+    /* background-color: linen; */
+    background-color:lightgoldenrodyellow;
+}
+p{
+    font-size: 13px;
+    color:black;
+     /* font-family:unset;  */
+     /* word-spacing: 8px; */
+     line-height: 1.0;
+     /* border: 3px solid #73AD21; */
+     /* font-size: 18px; */
+     /* font-weight: bold; */
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+}
+.pagination
+{
+  position: absolute;
+  top: 580px;
+  right: 900px;
+  
+}
