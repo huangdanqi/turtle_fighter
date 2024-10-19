@@ -1,0 +1,117 @@
+body {
+    background-image: url('study_material.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  /* unvisited link */
+  a:link {
+      color: hotpink;
+      text-decoration: none;
+    }
+    
+    /* visited link */
+    a:visited {
+      color: hotpink;
+      text-decoration: none;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color:coral;
+      text-decoration: none;
+    }
+    
+    /* selected link */
+    a:active {
+      color:  hotpink;
+      text-decoration: none;
+    }
+    .grid-container {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 18px;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    }
+  .info {
+      position: absolute;
+      top: 340px;
+      right: 345pX;
+      width:670px;
+      height: 360px;
+      word-spacing: 8px;
+      line-height: 1.4;
+      /* border: 10px solid #73AD21;  */
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  #carouselExampleAutoplaying
+  {
+    position: absolute;
+    top: 50px;
+    right: 120px;
+  }
+  .introduction
+  {
+    position: absolute;
+    top: 195px;
+    right: 25px;
+    height: 100px;
+    width:460px;
+    font-size: 16px;
+ 
+  }
+  .pagination
+  {
+    position: absolute;
+    top: 260px;
+    right: 200px;
+    
+  }
+#webpage_panel
+{
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+#web_pagination
+{
+  position: absolute;
+  top: 225px;
+  right: 200px;
+}
+#tool
+{
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+#tool_pagination
+{
+  position: absolute;
+  top: 225px;
+  right: 300px;
+}
+#home
+{
+  position: absolute;
+  top: 70px;
+  right: 35px;
+  width: 560px;
+}
+
+
